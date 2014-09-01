@@ -20,3 +20,10 @@ Restauraunt.create([
  { name: "Be Our Guest", serves_alcohol: true },
  { name: "Raglan Road", serves_alcohol: false }
 ])
+
+Ride.delete_all
+Ride.create([
+  { name:"Tower of Terror", min_height: 42 },
+  { name:"Space Mountain", min_height: 42 },
+  { name:"Pirates of the Carribean", min_height:nil }
+])
