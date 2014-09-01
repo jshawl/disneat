@@ -18,7 +18,9 @@ User.create([
 Restaurant.delete_all
 Restaurant.create([
  { name: "Be Our Guest", serves_alcohol: true },
- { name: "Raglan Road", serves_alcohol: false }
+ { name: "Raglan Road", serves_alcohol: false },
+ { name: "Dippin' Dots", serves_alcohol: false },
+ { name: "Goofy's Kitchen", serves_alcohol: false }
 ])
 
 Ride.delete_all
