@@ -15,8 +15,8 @@ User.create([
   { name:"Marissa Meyer", age: 39, height: 58 }
 ])
 
-Restauraunt.delete_all
-Restauraunt.create([
+Restaurant.delete_all
+Restaurant.create([
  { name: "Be Our Guest", serves_alcohol: true },
  { name: "Raglan Road", serves_alcohol: false }
 ])
